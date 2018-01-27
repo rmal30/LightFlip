@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transition xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/first" android:drawable="@color/primary"/>
+    <item android:id="@+id/second" android:drawable="@color/secondary" />
+    <item android:id="@+id/third" android:drawable="@color/tertiary" />
+    <item android:id="@+id/fourth" android:drawable="@color/primary" />
+</transition>

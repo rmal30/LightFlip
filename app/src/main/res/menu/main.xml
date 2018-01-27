@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    >
+    <item
+        android:id="@+id/menu_overflow"
+        android:icon="@drawable/abc_ic_menu_overflow_material"
+        app:showAsAction="always"
+        android:title="">
+    <item
+        android:id="@+id/use_play_games"
+        android:onClick="changePlayOption"
+        android:title="@string/playoption"
+        android:checkable="true"
+        android:checked="true"
+        app:showAsAction="never"
+        >
+    </item>
+
+    <item
+        android:id="@+id/num_colors"
+        android:onClick="changeColors"
+        android:title="@string/coloroption"
+        app:showAsAction="never"
+        >
+    </item>
+        <item
+            android:id="@+id/share"
+            android:onClick="shareApp"
+            android:title="@string/share"
+            app:showAsAction="never"
+            >
+        </item>
+        <item
+            android:id="@+id/rate"
+            android:onClick="rateApp"
+            android:title="@string/rate"
+            app:showAsAction="never"
+            >
+        </item>
+
+    </item>
+</menu>

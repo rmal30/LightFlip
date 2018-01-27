@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="Settings"
+    >
+        <CheckBoxPreference
+            android:key="pref_google_play"
+            android:title="Use Google Play Games"
+            android:summary="Allows access to Leaderboard and Achievements"
+            android:defaultValue="true" />
+    </PreferenceScreen>

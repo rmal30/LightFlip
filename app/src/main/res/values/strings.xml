@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Light Flip</string>
+    <string name="rate">Rate</string>
+    <string name="share">Share</string>
+    <string name="app_id">65647378298</string>
+    <string name="instr">Make all squares blue!</string>
+    <string name="undo">Undo</string>
+    <string name="newp">New puzzle</string>
+    <string name="help">Help</string>
+    <string name="achieve">Achievements</string>
+    <string name="highscore">High scores</string>
+    <string name="playoption">Use Google Play Games</string>
+    <string name="coloroption">Number of colors</string>
+    <string name="info">
+        Light Flip is a variant of Lights Out, a puzzle game.
+        Tap a tile to change the color of all tiles in the same row or column.
+        The aim of the puzzle is to color all the tiles blue.
+    </string>
+
+    <string name="hint">
+        Stuck? Try out these hints for the 2-color puzzles:\n
+         - Find a sequence of clicks to flip 4 tiles that form a rectangle\n
+         - Find a sequence of clicks to flip one tile in even boards\n
+    </string>
+
+    <string-array name="colors">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+</resources>
